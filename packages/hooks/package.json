@@ -10,13 +10,14 @@
   "keywords": [],
   "author": "Oğuzhan Yılmaz <ooguzhanyilmazz41@gmail.com>",
   "license": "MIT",
-  "main": "src/index.ts",
+  "main": "dist/index.js",
   "directories": {
-    "lib": "src",
-    "test": "__tests__"
+    "lib": "dist",
+    "types": "types"
   },
   "files": [
-    "src"
+    "dist",
+    "types"
   ],
   "scripts": {
     "build": "tsc",
