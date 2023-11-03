@@ -1,6 +1,7 @@
 {
   "name": "@owuzanke/core",
   "version": "0.0.1",
+  "private": false,
   "description": "> TODO: description",
   "author": "Oğuzhan Yılmaz <ooguzhanyilmazz41@gmail.com>",
   "homepage": "",
@@ -15,5 +16,6 @@
   ],
   "scripts": {
     "test": "node ./__tests__/core.test.js"
-  }
+  },
+  "gitHead": "6a4f6dfac71a27485262ea8d910f69a1a36e1d4c"
 }
