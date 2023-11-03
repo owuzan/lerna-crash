@@ -1,11 +1,4 @@
-# `hooks`
+# @owuzanke/hooks
 
-> TODO: description
-
-## Usage
-
-```
-const hooks = require('hooks');
-
-// TODO: DEMONSTRATE API
-```
+`npm i @owuzanke/hooks`
+`yarn add @owuzanke/hooks`
