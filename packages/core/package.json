@@ -2,6 +2,10 @@
   "name": "@owuzanke/core",
   "version": "0.0.4",
   "private": false,
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
   "description": "> TODO: description",
   "author": "Oğuzhan Yılmaz <ooguzhanyilmazz41@gmail.com>",
   "homepage": "",
@@ -17,5 +21,5 @@
   "scripts": {
     "test": "node ./__tests__/core.test.js"
   },
-  "gitHead": "e8901d1fe9cc98ff5d5fbc052681e328b5dce8f9"
+  "gitHead": "1d773e1438b9b91ce05545a070650290243e4298"
 }
