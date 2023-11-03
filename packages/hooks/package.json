@@ -19,6 +19,7 @@
     "src"
   ],
   "scripts": {
+    "build": "tsc",
     "test": "node ./__tests__/hooks.test.js"
   },
   "peerDependencies": {
