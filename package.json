@@ -1,11 +1,9 @@
 {
   "name": "owuzanke",
   "private": false,
-  "workspaces": [
-    "packages/*"
-  ],
   "dependencies": {},
   "devDependencies": {
     "lerna": "^7.4.2"
-  }
+  },
+  "license": "MIT"
 }

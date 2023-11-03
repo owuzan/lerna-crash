@@ -9,17 +9,22 @@
   "description": "Now I’m the model of a modern major general / The venerated Virginian veteran whose men are all / Lining up, to put me up on a pedestal / Writin’ letters to relatives / Embellishin’ my elegance and eloquence / But the elephant is in the room / The truth is in ya face when ya hear the British cannons go / BOOM",
   "keywords": [],
   "author": "Oğuzhan Yılmaz <ooguzhanyilmazz41@gmail.com>",
-  "license": "ISC",
-  "main": "lib/hooks.js",
+  "license": "MIT",
+  "main": "src/index.ts",
   "directories": {
-    "lib": "lib",
+    "lib": "src",
     "test": "__tests__"
   },
   "files": [
-    "lib"
+    "src"
   ],
   "scripts": {
     "test": "node ./__tests__/hooks.test.js"
   },
-  "gitHead": "1d773e1438b9b91ce05545a070650290243e4298"
+  "peerDependencies": {
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.34"
+  }
 }
