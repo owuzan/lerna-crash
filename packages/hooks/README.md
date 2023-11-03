@@ -1,4 +1,9 @@
 # @owuzanke/hooks
 
-`npm i @owuzanke/hooks`
-`yarn add @owuzanke/hooks`
+```bash
+# with npm
+npm i @owuzanke/hooks
+
+# with yarn
+yarn add @owuzanke/hooks
+```
