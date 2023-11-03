@@ -20,7 +20,8 @@
   ],
   "scripts": {
     "build": "tsc",
-    "test": "node ./__tests__/hooks.test.js"
+    "prepublishOnly": "yarn build",
+    "preversion": "yarn build"
   },
   "peerDependencies": {
     "react": "^18.2.0"
