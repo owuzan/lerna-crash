@@ -6,20 +6,32 @@
     "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
-  "description": "> TODO: description",
+  "description": "",
   "author": "Oğuzhan Yılmaz <ooguzhanyilmazz41@gmail.com>",
-  "homepage": "",
-  "license": "ISC",
-  "main": "lib/core.js",
+  "homepage": "https://oguzhan.dev",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/owuzan/lerna-crash.git",
+    "directory": "packages/core"
+  },
+  "license": "MIT",
+  "main": "dist/index.js",
   "directories": {
-    "lib": "lib",
-    "test": "__tests__"
+    "lib": "src"
   },
   "files": [
-    "lib"
+    "dist"
   ],
   "scripts": {
-    "test": "node ./__tests__/core.test.js"
+    "build": "tsc",
+    "prepublishOnly": "yarn build",
+    "preversion": "yarn build"
   },
-  "gitHead": "1d773e1438b9b91ce05545a070650290243e4298"
+  "gitHead": "1d773e1438b9b91ce05545a070650290243e4298",
+  "peerDependencies": {
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.34"
+  }
 }
