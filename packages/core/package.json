@@ -1,6 +1,6 @@
 {
   "name": "@owuzanke/core",
-  "version": "0.2.0",
+  "version": "0.2.8",
   "private": false,
   "publishConfig": {
     "access": "public",
