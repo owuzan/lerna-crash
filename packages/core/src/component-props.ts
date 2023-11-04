@@ -9,4 +9,4 @@ export type ComponentProps<
   D extends ElementType,
   P
 > = P &
-  DistributiveOmit<ComponentPropsWithRef<ElementType extends T ? T : D>, "as">;
+  DistributiveOmit<ComponentPropsWithRef<ElementType extends T ? D : T>, "as">;
