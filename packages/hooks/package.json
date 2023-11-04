@@ -11,6 +11,12 @@
   "author": "Oğuzhan Yılmaz <ooguzhanyilmazz41@gmail.com>",
   "license": "MIT",
   "main": "dist/index.js",
+  "homepage": "https://oguzhan.dev",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/owuzan/lerna-crash.git",
+    "directory": "packages/hooks"
+  },
   "directories": {
     "lib": "dist",
     "types": "dist"
