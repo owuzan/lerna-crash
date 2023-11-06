@@ -1,4 +1,4 @@
-import { ComponentPropsWithRef, ElementType } from "react";
+import type { ComponentPropsWithRef, ElementType } from "react";
 
 export type DistributiveOmit<T, TOmitted extends PropertyKey> = T extends any
   ? Omit<T, TOmitted>
